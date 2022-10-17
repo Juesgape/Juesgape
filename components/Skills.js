@@ -13,7 +13,7 @@ function Skills() {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
 
-                    <Image src='/../public/assets/html.png' alt='' width='64px' height='64px'></Image>
+                    <Image src='/../public/assets/skills/html.png' alt='' width='64px' height='64px'></Image>
 
                 </div>
 
@@ -28,7 +28,7 @@ function Skills() {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
 
-                    <Image src='/../public/assets/css.png' alt='' width='64px' height='64px'></Image>
+                    <Image src='/../public/assets/skills/css.png' alt='' width='64px' height='64px'></Image>
 
                 </div>
 
@@ -43,7 +43,7 @@ function Skills() {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
 
-                    <Image src='/../public/assets/javascript.png' alt='' width='64px' height='64px'></Image>
+                    <Image src='/../public/assets/skills/javascript.png' alt='' width='64px' height='64px'></Image>
 
                 </div>
 
@@ -58,7 +58,7 @@ function Skills() {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
 
-                    <Image src='/../public/assets/nextjs.png' alt='' width='64px' height='64px'></Image>
+                    <Image src='/../public/assets/skills/nextjs.png' alt='' width='64px' height='64px'></Image>
 
                 </div>
 
@@ -73,7 +73,7 @@ function Skills() {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
 
-                    <Image src='/../public/assets/Python.png' alt='' width='64px' height='64px'></Image>
+                    <Image src='/../public/assets/skills/Python.png' alt='' width='64px' height='64px'></Image>
 
                 </div>
 
@@ -88,7 +88,7 @@ function Skills() {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
 
-                    <Image src='/../public/assets/Kotlin_Icon.png' alt='' width='64px' height='64px'></Image>
+                    <Image src='/../public/assets/skills/Kotlin_Icon.png' alt='' width='64px' height='64px'></Image>
 
                 </div>
 
@@ -104,7 +104,7 @@ function Skills() {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
 
-                    <Image src='/../public/assets/github1.png' alt='' width='64px' height='64px'></Image>
+                    <Image src='/../public/assets/skills/github1.png' alt='' width='64px' height='64px'></Image>
 
                 </div>
 
@@ -119,7 +119,7 @@ function Skills() {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
 
-                    <Image src='/../public/assets/Git-Icon-1788C.png' alt='' width='64px' height='64px'></Image>
+                    <Image src='/../public/assets/skills/Git-Icon-1788C.png' alt='' width='64px' height='64px'></Image>
 
                 </div>
 
