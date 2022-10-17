@@ -1,5 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
+import htmlImage from '../public/assets/skills/html.png'
+import cssImage from '../public/assets/skills/css.png'
+import jsImage from '../public/assets/skills/javascript.png'
+import nextJsImage from '../public/assets/skills/nextjs.png'
+import pythonImage from '../public/assets/skills/Python.png'
+import kotlinImage from '../public/assets/skills/Kotlin_Icon.png'
+import githubImage from '../public/assets/skills/github1.png'
+import gitImage from '../public/assets/skills/Git-Icon-1788C.png'
 
 function Skills() {
   return (
@@ -13,7 +21,7 @@ function Skills() {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
 
-                    <Image src='/../public/assets/skills/html.png' alt='' width='64px' height='64px'></Image>
+                    <Image src={htmlImage} alt='' width='64px' height='64px'></Image>
 
                 </div>
 
@@ -28,7 +36,7 @@ function Skills() {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
 
-                    <Image src='/../public/assets/skills/css.png' alt='' width='64px' height='64px'></Image>
+                    <Image src={cssImage} alt='' width='64px' height='64px'></Image>
 
                 </div>
 
@@ -43,7 +51,7 @@ function Skills() {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
 
-                    <Image src='/../public/assets/skills/javascript.png' alt='' width='64px' height='64px'></Image>
+                    <Image src={jsImage} alt='' width='64px' height='64px'></Image>
 
                 </div>
 
@@ -58,7 +66,7 @@ function Skills() {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
 
-                    <Image src='/../public/assets/skills/nextjs.png' alt='' width='64px' height='64px'></Image>
+                    <Image src={nextJsImage} alt='' width='64px' height='64px'></Image>
 
                 </div>
 
@@ -73,7 +81,7 @@ function Skills() {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
 
-                    <Image src='/../public/assets/skills/Python.png' alt='' width='64px' height='64px'></Image>
+                    <Image src={pythonImage} alt='' width='64px' height='64px'></Image>
 
                 </div>
 
@@ -88,7 +96,7 @@ function Skills() {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
 
-                    <Image src='/../public/assets/skills/Kotlin_Icon.png' alt='' width='64px' height='64px'></Image>
+                    <Image src={kotlinImage} alt='' width='64px' height='64px'></Image>
 
                 </div>
 
@@ -104,7 +112,7 @@ function Skills() {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
 
-                    <Image src='/../public/assets/skills/github1.png' alt='' width='64px' height='64px'></Image>
+                    <Image src={githubImage} alt='' width='64px' height='64px'></Image>
 
                 </div>
 
@@ -119,7 +127,7 @@ function Skills() {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
 
-                    <Image src='/../public/assets/skills/Git-Icon-1788C.png' alt='' width='64px' height='64px'></Image>
+                    <Image src={gitImage} alt='' width='64px' height='64px'></Image>
 
                 </div>
 
