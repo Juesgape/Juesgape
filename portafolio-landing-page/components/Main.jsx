@@ -13,7 +13,7 @@ const Main = () => {
                 <h1 className='py-2 text-gray-700'>
                    A Front-End Web Developer
                 </h1>
-                <p className='py-4 text-gray-600 max-w-[70%] m-auto'>I'm a junior front-end developer, currently studying software engineering at the university of Medellin and I also take courses on Platzi. I'm focused on building responsive front-end web applications while learning new technologies.</p>
+                <p className='py-4 text-gray-600 max-w-[70%] m-auto'>I'm a junior front-end developer, currently studying software engineering at the university of Medellin and web development on Platzi.</p>
                 
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
 
