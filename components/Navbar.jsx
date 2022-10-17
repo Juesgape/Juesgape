@@ -35,18 +35,18 @@ const Navbar = () => {
         </Link>
         <div>
           <ul className='hidden md:flex'>
-              <a href='/#main'>
+              <Link href='/#main'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
-              </a>
-              <a href='#about'>
+              </Link>
+              <Link href='#about'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
-              </a>
-              <a href='/#skills'>
+              </Link>
+              <Link href='/#skills'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
-              </a>
-              <a href='/#projects'>
+              </Link>
+              <Link href='/#projects'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
-              </a>
+              </Link>
               {/* <a href='/'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
               </a> */}
@@ -78,18 +78,18 @@ const Navbar = () => {
         <div>
           <ul className='upper'>
             <li>
-              <a onClick={handleNav} href='/#main'>
-                <li  className='py-4 text-sm'>Home</li>
-              </a>
-              <a onClick={handleNav} href='/#about'>
-                <li className='py-4 text-sm'>About</li>
-              </a>
-              <a onClick={handleNav} href='/#skills'>
-                <li className='py-4 text-sm'>Skills</li>
-              </a>
-              <a onClick={handleNav} href='/#projects'>
-                <li className='py-4 text-sm'>Projects</li>
-              </a>
+              <Link href='/#main'>
+                <li onClick={handleNav}  className='py-4 text-sm'>Home</li>
+              </Link>
+              <Link href='/#about'>
+                <li onClick={handleNav} className='py-4 text-sm'>About</li>
+              </Link>
+              <Link onClick={handleNav} href='/#skills'>
+                <li onClick={handleNav} className='py-4 text-sm'>Skills</li>
+              </Link>
+              <Link href='/#projects'>
+                <li onClick={handleNav} className='py-4 text-sm'>Projects</li>
+              </Link>
               {/* <Link href='/'>
                 <li className='py-4 text-sm'>Contact</li>
               </Link> */}
