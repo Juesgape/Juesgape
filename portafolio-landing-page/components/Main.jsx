@@ -1,6 +1,6 @@
 import React from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
-import { BsFillPersonLinesFill } from 'react-icons/bs'
+import { BsFillPersonLinesFill, BsTwitter } from 'react-icons/bs'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 const Main = () => {
@@ -17,20 +17,26 @@ const Main = () => {
                 
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
 
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <a  href='https://www.linkedin.com/in/juan-esteban-gallego-2aba45247' target='_blank'>
+                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <FaLinkedin></FaLinkedin>
-                    </div>
+                        </div>
+                    </a>
 
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <a href='https://github.com/Juesgape' target='_blank'>
+                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <FaGithub></FaGithub>
-                    </div>
+                        </div>
+                    </a>
+
+                    <a href='https://twitter.com/Juesgape' target='_blank'>
+                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <BsTwitter></BsTwitter>
+                        </div>
+                    </a>
 
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <AiOutlineMail></AiOutlineMail>
-                    </div>
-
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <BsFillPersonLinesFill></BsFillPersonLinesFill>
                     </div>
 
                 </div>

@@ -3,7 +3,7 @@ import React, {useState} from 'react'
 import Link from 'next/link'
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
 import {FaLinkedinIn} from 'react-icons/fa'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
+import {BsTwitter} from 'react-icons/bs'
 import {FaGithub} from 'react-icons/fa'
 import {AiOutlineMail} from 'react-icons/ai'
 
@@ -21,16 +21,16 @@ const Navbar = () => {
         <Image src='/../public/assets/Juesgape - copia.png' alt='/' width='200' height='50'/>
         <div>
           <ul className='hidden md:flex'>
-              <Link href='/'>
+              <Link href='./Main.jsx'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
               </Link>
-              <Link href='/'>
+              <Link href='./About.jsx'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
               </Link>
-              <Link href='/'>
+              <Link href='./Skills.js'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
               </Link>
-              <Link href='/'>
+              <Link href='./Skills.js'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
               </Link>
               <Link href='/'>
@@ -84,18 +84,32 @@ const Navbar = () => {
           <div className='pt-40'>
             <p className='uppercase tracking-widest text-[#5651e5]'>Let's connect</p>
           <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-              <FaLinkedinIn></FaLinkedinIn>
-            </div>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-              <FaGithub></FaGithub>
-            </div>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-              <AiOutlineMail></AiOutlineMail>
-            </div>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-              <BsFillPersonLinesFill></BsFillPersonLinesFill>
-            </div>
+
+          <a  href='https://www.linkedin.com/in/juan-esteban-gallego-2aba45247' target='_blank'>
+              <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                    <FaLinkedinIn></FaLinkedinIn>
+              </div>
+          </a>
+
+          <a href='https://github.com/Juesgape' target='_blank'>
+              <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                <FaGithub></FaGithub>
+              </div>
+          </a>
+
+
+          <a href='https://twitter.com/Juesgape' target='_blank'>
+              <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                <BsTwitter></BsTwitter>
+              </div>
+          </a>
+
+          <a href='https://twitter.com/Juesgape' target='_blank'>
+              <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                <AiOutlineMail></AiOutlineMail>
+              </div>
+          </a>
+
           </div>
         </div>
       </div>
