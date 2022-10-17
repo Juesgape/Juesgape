@@ -10,16 +10,16 @@ export const Projects = () => {
   return (
     <div id='projects' className='w-full '>
         <div className='max-w-[1240px] mx-auto px-2 py-16'>
-        <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Projects</p>
+        <p className='text-xl tracking-widest uppercase text-[#16c60c]'>Projects</p>
         <h2 className='py-4'>What I've Built</h2>
         <div className='grid md:grid-cols-2 gap-10'>
 
         <a href='https://juesgape.github.io/Calculator/' target='_blank'>
-            <div className='cursor-pointer flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from[#5651e5] to-[#709dff]'>
+            <div className='cursor-pointer flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from[#16c60c] to-[#709dff]'>
 
             <Image className='rounded-xl group-hover:opacity-10' src={calculatorImg} alt='/'></Image>
             <div className='hidden group-hover:block absolute '>
-                <h3 className=' text-2xl tracking-wider text-[#5651e5]'>Calculator</h3>
+                <h3 className=' text-2xl tracking-wider text-[#16c60c]'>Calculator</h3>
             </div>
             </div>
         </a>
@@ -29,7 +29,7 @@ export const Projects = () => {
 
             <Image className='rounded-xl group-hover:opacity-10' src={etchAsketchImg} alt='/' height='1065px'></Image>
             <div className='hidden group-hover:block absolute '>
-                <h3 className=' text-2xl tracking-wider text-[#5651e5]'>Etch A Sketch</h3>
+                <h3 className=' text-2xl tracking-wider text-[#16c60c]'>Etch A Sketch</h3>
             </div>
             </div>
         </a>
@@ -39,7 +39,7 @@ export const Projects = () => {
 
             <Image className='rounded-xl group-hover:opacity-10' src={gamesWithJsImg} alt='/' height='1065px'></Image>
             <div className='hidden group-hover:block absolute '>
-                <h3 className=' text-2xl tracking-wider text-[#5651e5]'>Games With Js</h3>
+                <h3 className=' text-2xl tracking-wider text-[#16c60c]'>Games With Js</h3>
             </div>
             </div>
         </a>
@@ -49,7 +49,7 @@ export const Projects = () => {
 
             <Image className='rounded-xl group-hover:opacity-10' src={quizSoccerAppImg} alt='/' height='1065px'></Image>
             <div className='hidden group-hover:block absolute '>
-                <h3 className=' text-2xl tracking-wider text-[#5651e5]'>Quiz Soccer App</h3>
+                <h3 className=' text-2xl tracking-wider text-[#16c60c]'>Quiz Soccer App</h3>
             </div>
             </div>
         </a>

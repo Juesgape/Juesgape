@@ -35,21 +35,21 @@ const Navbar = () => {
         </Link>
         <div>
           <ul className='hidden md:flex'>
-              <Link href='/#main'>
+              <a href='/#main'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
-              </Link>
-              <Link href='#about'>
+              </a>
+              <a href='#about'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
-              </Link>
-              <Link href='/#skills'>
+              </a>
+              <a href='/#skills'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
-              </Link>
-              <Link href='/#projects'>
+              </a>
+              <a href='/#projects'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
-              </Link>
-              <Link href='/'>
+              </a>
+              {/* <a href='/'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
-              </Link>
+              </a> */}
           </ul>
           <div onClick={handleNav} className='md:hidden'>
             <AiOutlineMenu size={25} />
@@ -66,7 +66,7 @@ const Navbar = () => {
           >
           <div>
           <div className='flex w-full items-center justify-between'>
-          <Image className='' src='/../public/assets/Juesgape - copia.png' alt='/' width='125' height='50'/>
+          <Image className='' src='/../public/assets/Juesgape - copia.png' alt='/' width='200' height='50'/>
             <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
               <AiOutlineClose></AiOutlineClose>
             </div>
@@ -78,25 +78,25 @@ const Navbar = () => {
         <div>
           <ul className='upper'>
             <li>
-              <Link href='/'>
-                <li className='py-4 text-sm'>Home</li>
-              </Link>
-              <Link href='/'>
+              <a onClick={handleNav} href='/#main'>
+                <li  className='py-4 text-sm'>Home</li>
+              </a>
+              <a onClick={handleNav} href='/#about'>
                 <li className='py-4 text-sm'>About</li>
-              </Link>
-              <Link href='/'>
+              </a>
+              <a onClick={handleNav} href='/#skills'>
                 <li className='py-4 text-sm'>Skills</li>
-              </Link>
-              <Link href='/'>
+              </a>
+              <a onClick={handleNav} href='/#projects'>
                 <li className='py-4 text-sm'>Projects</li>
-              </Link>
-              <Link href='/'>
+              </a>
+              {/* <Link href='/'>
                 <li className='py-4 text-sm'>Contact</li>
-              </Link>
+              </Link> */}
             </li>
           </ul>
           <div className='pt-40'>
-            <p className='uppercase tracking-widest text-[#5651e5]'>Let's connect</p>
+            <p className='uppercase tracking-widest text-[#16c60c]'>Let's connect</p>
           <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
 
           <a  href='https://www.linkedin.com/in/juan-esteban-gallego-2aba45247' target='_blank'>
