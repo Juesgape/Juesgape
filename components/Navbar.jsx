@@ -31,7 +31,7 @@ const Navbar = () => {
     <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
       <a href='/'>
-        <Image className='cursor-pointer' src='/../public/assets/Juesgape - copia.png' alt='/' width='200' height='50'/>
+        <Image className='cursor-pointer' src='/../public/assets/Juesgape.png' alt='main-logo' width='200' height='50'/>
         </a>
         <div>
           <ul className='hidden md:flex'>
@@ -65,7 +65,7 @@ const Navbar = () => {
           >
           <div>
           <div className='flex w-full items-center justify-between'>
-          <Image className='' src='/../public/assets/Juesgape - copia.png' alt='/' width='200' height='50'/>
+          <Image className='' src='/../public/assets/Juesgape.png' alt='/' width='200' height='50'/>
             <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
               <AiOutlineClose></AiOutlineClose>
             </div>
