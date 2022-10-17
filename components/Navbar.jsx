@@ -76,18 +76,18 @@ const Navbar = () => {
         </div>
         <div>
           <ul className='upper'>
-              <Link href='/#main'>
+              <a href='/#main'>
                 <li onClick={handleNav}  className='py-4 text-sm'>Home</li>
-              </Link>
-              <Link href='/#about'>
+              </a>
+              <a href='/#about'>
                 <li onClick={handleNav} className='py-4 text-sm'>About</li>
-              </Link>
-              <Link href='/#skills'>
+              </a>
+              <a href='/#skills'>
                 <li onClick={handleNav} className='py-4 text-sm'>Skills</li>
-              </Link>
-              <Link href='/#projects'>
+              </a>
+              <a href='/#projects'>
                 <li onClick={handleNav} className='py-4 text-sm'>Projects</li>
-              </Link>
+              </a>
               {/* <Link href='/#'>
                 <li className='py-4 text-sm'>Contact</li>
               </Link> */}
