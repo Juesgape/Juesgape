@@ -1,11 +1,11 @@
 import React from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
-import { BsFillPersonLinesFill, BsTwitter } from 'react-icons/bs'
+import { BsTwitter } from 'react-icons/bs'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 const Main = () => {
   return (
-    <div className='w-full h-screen text-center'>
+    <div id='main' className='w-full h-screen text-center'>
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
             <div>
                 <p className='uppercase text-sm tracking-widest text-gray-600'>Never stop learning 💚</p>
