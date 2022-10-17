@@ -35,9 +35,11 @@ const Main = () => {
                         </div>
                     </a>
 
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <a href='mailto:juesgape11@gmail.com' target='_blank'>
+                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <AiOutlineMail></AiOutlineMail>
-                    </div>
+                        </div>
+                    </a>
 
                 </div>
             </div>

@@ -30,23 +30,22 @@ const Navbar = () => {
   return (
     <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-      <Link href='/'>
+      <a href='/'>
         <Image className='cursor-pointer' src='/../public/assets/Juesgape - copia.png' alt='/' width='200' height='50'/>
-        </Link>
+        </a>
         <div>
           <ul className='hidden md:flex'>
-              <Link href='/#main'>
-                <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
-              </Link>
-              <Link href='#about'>
-                <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
-              </Link>
-              <Link href='/#skills'>
-                <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
-              </Link>
-              <Link href='/#projects'>
-                <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
-              </Link>
+              
+               <a href='#main'> <div className='ml-10 text-sm uppercase hover:border-b'>Home</div></a>
+              
+               <a href='#about'><div className='ml-10 text-sm uppercase hover:border-b'>About</div></a> 
+              
+              
+                <a href='#skills'><div className='ml-10 text-sm uppercase hover:border-b'>Skills</div></a>
+              
+              
+                <a href='#projects'><div className='ml-10 text-sm uppercase hover:border-b'>Projects</div></a>
+              
               {/* <a href='/'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
               </a> */}
@@ -77,23 +76,21 @@ const Navbar = () => {
         </div>
         <div>
           <ul className='upper'>
-            <li>
               <Link href='/#main'>
                 <li onClick={handleNav}  className='py-4 text-sm'>Home</li>
               </Link>
               <Link href='/#about'>
                 <li onClick={handleNav} className='py-4 text-sm'>About</li>
               </Link>
-              <Link onClick={handleNav} href='/#skills'>
+              <Link href='/#skills'>
                 <li onClick={handleNav} className='py-4 text-sm'>Skills</li>
               </Link>
               <Link href='/#projects'>
                 <li onClick={handleNav} className='py-4 text-sm'>Projects</li>
               </Link>
-              {/* <Link href='/'>
+              {/* <Link href='/#'>
                 <li className='py-4 text-sm'>Contact</li>
               </Link> */}
-            </li>
           </ul>
           <div className='pt-40'>
             <p className='uppercase tracking-widest text-[#16c60c]'>Let's connect</p>
@@ -118,7 +115,7 @@ const Navbar = () => {
               </div>
           </a>
 
-          <a href='https://twitter.com/Juesgape' target='_blank'>
+          <a href='mailto:juesgape11@gmail.com' target='_blank'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                 <AiOutlineMail></AiOutlineMail>
               </div>
