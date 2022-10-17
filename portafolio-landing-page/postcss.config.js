@@ -1,3 +1,5 @@
+const {join} = require('path')
+
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
@@ -6,7 +8,7 @@ module.exports = {
   plugins: {
     tailwindcss: {
       config: join(__dirname, 'tailwind.config.js'),
+      autoprefixer: {},
     },
-    autoprefixer: {},
   },
 };
