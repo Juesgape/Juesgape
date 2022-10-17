@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import calculatorImg from '../public/assets/projects/calculator - copia.png'
 import etchAsketchImg from '../public/assets/projects/etchAsketch - copia.png'
-import gamesWithJsImg from '../public/assets/projects/gamesWithjs.jpeg'
+import gamesWithJsImg from '../public/assets/projects/gamesWithJs.jpeg'
 import quizSoccerAppImg from '../public/assets/projects/quiz-soccer-app - copia.jpg'
 
 
