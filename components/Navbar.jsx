@@ -15,6 +15,7 @@ const Navbar = () => {
 
   const handleNav = () => {
     setNav(!nav)
+    console.log(nav)
   }
 
   useEffect(() => {
@@ -89,9 +90,7 @@ const Navbar = () => {
               <a href='/#projects'>
                 <li onClick={handleNav} className='py-4 text-sm'>Projects</li>
               </a>
-              {/* <Link href='/#'>
-                <li className='py-4 text-sm'>Contact</li>
-              </Link> */}
+
           </ul>
           <div className='pt-40'>
             <p className='uppercase tracking-widest text-[#16c60c]'>Let's connect</p>
