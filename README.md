@@ -1,53 +1,20 @@
-# Hi there, I'm Juan Esteban - aka Juesgape 👋 
-## I'm a junior Front-End Developer, Student, and Passionate about learning!!
+<h1 align="center">Hi there, I'm Juan Esteban - aka Juesgape 👋</h1>
+<h3 align="center">I'm a junior Front-End Developer, Student, and Passionate about learning!!</h3>
 
-- ☘ Born in Colombia
-- 📘 Currently studying software engineering
-- 💚 Platzi Student
-- 🗺 I like learning languages to connect with other people
-- 🎈[!website](https://juesgape-juesgape.vercel.app/)
+- 📘 Currently studying **Software engineering**
 
-### Connect with me:
+- 🌱 I’m a Platzi student **At Platzi 💚**
 
-[![website](./public/assets/readmeImg/globe-light.svg)](https://juesgape-juesgape.vercel.app)
-[![website](./public/assets/readmeImg/globe-dark.svg)](https://juesgape-juesgape.vercel.app)
-&nbsp;&nbsp;
-[![twitter](./public/assets/readmeImg/twitter-light.svg)](https://twitter.com/Juesgape)
-[![twitter](./public/assets/readmeImg/twitter-dark.svg)](https://twitter.com/Juesgape)
-&nbsp;&nbsp;
-[![linkedin](./public/assets/readmeImg/linkedin-light.svg)](https://www.linkedin.com/in/juan-esteban-gallego-2aba45247/)
-[![linkedin](./public/assets/readmeImg/linkedin-dark.svg)](https://www.linkedin.com/in/juan-esteban-gallego-2aba45247/)
-&nbsp;&nbsp;
----
+- 👨‍💻 All of my projects are available at [https://juesgape-juesgape.vercel.app/](https://juesgape-juesgape.vercel.app/)
 
-### Languages and Tools:
+- 📫 How to reach me **juesgape11@gmail.com**
 
-<img align="left" alt="Visual Studio Code" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" style="padding-right:10px;" />
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://twitter.com/juesgape" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="juesgape" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/https://www.linkedin.com/in/juan-esteban-gallego-2aba45247" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/juan-esteban-gallego-2aba45247" height="30" width="40" /></a>
+</p>
 
-<img align="left" alt="HTML5" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" style="padding-right:10px;" />
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://kotlinlang.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> </p>
 
-<img align="left" alt="CSS3" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" style="padding-right:10px;" />
-
-<!-- <img align="left" alt="Tailwind" width="26px" src="Users/Desktop/Downloads/tailwind-css-icon.svg" style="padding-right:10px;" /> -->
-
-<img align="left" alt="JavaScript" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" style="padding-right:10px;" />
-
-<!-- [<img align="left" alt="React" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" style="padding-right:10px;" />] -->
-
-
-<!-- [<img align="left" alt="Node.js" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" style="padding-right:10px;" />] -->
-
-<!-- [<img align="left" alt="MySQL" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" style="padding-right:10px;" />] -->
-
-<img align="left" alt="Git" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" style="padding-right:10px;" />
-
-<img align="left" alt="GitHub" width="26px" src="https://user-images.githubusercontent.com/3369400/139447912-e0f43f33-6d9f-45f8-be46-2df5bbc91289.png" style="padding-right:10px;" />
-
-<img align="left" alt="Terminal" width="26px" src="./public/assets/readmeImg/terminal-light.svg" />
----
-
-
-
-[website]: https://juesgape-juesgape.vercel.app
-[twitter]: https://twitter.com/Juesgape
-[linkedin]: https://www.linkedin.com/in/juan-esteban-gallego-2aba45247/
