@@ -3,7 +3,7 @@
 
 - 📘 Currently studying **Software engineering**
 
-- 🌱 I’m a Platzi student **At Platzi 💚**
+- 🌱 I’m a **Platzi student 💚**
 
 - 👨‍💻 All of my projects are available at [https://juesgape-juesgape.vercel.app/](https://juesgape-juesgape.vercel.app/)
 
