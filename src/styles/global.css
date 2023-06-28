@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+@layer base {
+    body {
+        @apply bg-[#15011E] text-[#a289c2] tracking-wide
+    }
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-bold
+    }
+
+    h1 {
+        @apply text-4xl sm:text-5xl md:text-6xl
+    }
+    h2 {
+        @apply text-3xl sm:text-5xl md:text-6xl
+    }
+    li {
+        @apply cursor-pointer
+    }
+    button {
+        @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-t from-[#5651e5] to-[#709dff] text-white
+    }
+}
+
+.gradient-border {
+    border-image-source: linear-gradient(to right, #8B5CF6, #EC4899);
+    animation: gradient-animation 3s infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+            box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.1), 0 0 0 2px #8B5CF6, 0 0 0 2px #EC4899;
+        }
+        50% {
+            box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.1), 0 0 0 2px #EC4899, 0 0 0 2px #8B5CF6;
+        }
+        100% {
+        box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.1), 0 0 0 2px #8B5CF6, 0 0 0 2px #EC4899;
+    }
+}
+
+.circle-border {
+    border-radius: 9999px;
+    position: relative;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1), 0 0 0 2px #8B5CF6, 0 0 0 2px #EC4899;
+    animation: gradient-animation 3s infinite;
+}
