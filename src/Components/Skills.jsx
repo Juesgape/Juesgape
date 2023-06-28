@@ -7,10 +7,11 @@ import pythonImage from '../assets/skills/Python.png'
 import reactImage from '../assets/skills/react_icon.png'
 import githubImage from '../assets/skills/github1.png'
 import gitImage from '../assets/skills/Git-Icon-1788C.png'
+import '../styles/global.css'
 
 function Skills() {
     return (
-    <div id='skills' className='w-full lg:h-screen p-2'>
+    <div id='skills' className='w-full lg:h-screen p-2 sections'>
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
             <p className='text-xl tracking-widest uppercase text-[#a289c2]'>Skills</p>
             <h2 className='py-4 text-[#ca6aec]'>What I Can Do</h2>

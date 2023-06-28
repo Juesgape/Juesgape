@@ -2,10 +2,11 @@ import React from "react";
 import { AiOutlineMail } from 'react-icons/ai'
 import { BsTwitter } from 'react-icons/bs'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import '../styles/global.css'
 
 const Main = () => {
     return (
-        <div id='main' className='w-full h-screen text-center'>
+        <div id='main' className='w-full h-screen text-center sections'>
             <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
                 <div>
                     <p className='text-[2rem]'>🍩</p>
