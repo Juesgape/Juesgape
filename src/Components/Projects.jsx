@@ -8,7 +8,7 @@ import '../styles/global.css'
 
 const Projects = () => {
     return (
-    <div id='projects' className='w-full sections'>
+    <div id='projects' className='w-full'>
         <div className='max-w-[1240px] mx-auto px-2 py-16'>
         <p className='mt-8 text-xl tracking-widest uppercase text-[#a289c2]'>Projects</p>
         <h2 className='py-4 text-[#ca6aec]'>What I've Built</h2>

@@ -4,7 +4,7 @@ import '../styles/global.css'
 
 const About = () => {
     return(
-        <div id='about' className='w-full md:h-screen p-2 flex items-center py-20 sections'>
+        <div id='about' className='w-full md:h-screen p-2 flex items-center py-20'>
         <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
             <div className='col-span-2'>
                 <p className='uppercase mt-8 text-xl tracking-widest text-[#a289c2]'>About</p>

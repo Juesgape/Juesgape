@@ -4,11 +4,6 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-snap-type: y proximity;
-}
-
-.sections {
-    scroll-snap-align: start;
 }
 
 @layer base {
