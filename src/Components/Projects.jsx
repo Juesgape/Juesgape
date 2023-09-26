@@ -53,7 +53,7 @@ const Projects = () => {
                     <img className='w-full h-full object-fill rounded-xl group-hover:opacity-10' src={triki} alt='/' />
                 </figure>
                 <div className='hidden group-hover:block absolute'>
-                    <h3 className='text-2xl tracking-wider text-[#16c60c]'>Calculator</h3>
+                    <h3 className='text-2xl tracking-wider text-[#16c60c]'>4Triki</h3>
                 </div>
             </div>
         </a>
